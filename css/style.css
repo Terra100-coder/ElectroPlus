@@ -1,0 +1,88 @@
+:root {
+transition: var(--transition);
+border-radius: 0.75rem;
+}
+
+body {
+    padding-top: 70px;
+}
+
+.card:hover {
+transform: translateY(-4px);
+box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+
+.card-title {
+color: var(--dark-text);
+font-size: 1.05rem;
+}
+
+
+.card-text {
+font-size: 0.9rem;
+line-height: 1.4;
+}
+
+
+.card strong {
+color: var(--primary-color);
+}
+
+
+
+section.bg-light {
+background-color: var(--light-bg) !important;
+}
+
+
+section.bg-light i {
+transition: transform 0.4s ease;
+}
+
+
+section.bg-light i:hover {
+transform: scale(1.2);
+}
+
+
+footer {
+background: var(--primary-color);
+color: #fff;
+}
+
+
+footer a {
+color: #fff;
+opacity: 0.8;
+}
+
+
+footer a:hover {
+opacity: 1;
+}
+
+
+
+@media (max-width: 768px) {
+header h1 {
+font-size: 1.8rem;
+}
+
+
+.navbar-brand {
+font-size: 1.2rem;
+}
+
+
+.card-text {
+font-size: 0.85rem;
+}
+}
+
+
+@media (max-width: 576px) {
+header img {
+display: none;
+}
+}
